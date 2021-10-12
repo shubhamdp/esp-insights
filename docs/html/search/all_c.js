@@ -1,0 +1,21 @@
+var searchData=
+[
+  ['reset_5freason_95',['reset_reason',['../structesp__diag__device__info__t.html#a9d83cfa3417f92e1bd90d7c4bb17f303',1,'esp_diag_device_info_t']]],
+  ['rtc_5fstore_2eh_96',['rtc_store.h',['../rtc__store_8h.html',1,'']]],
+  ['rtc_5fstore_5fcritical_5fdata_5fread_5fand_5flock_97',['rtc_store_critical_data_read_and_lock',['../rtc__store_8h.html#a525c2d74b73aeeae2fa32deba8b4d469',1,'rtc_store.h']]],
+  ['rtc_5fstore_5fcritical_5fdata_5frelease_98',['rtc_store_critical_data_release',['../rtc__store_8h.html#ae891da208082db32469c0c4da68a46bf',1,'rtc_store.h']]],
+  ['rtc_5fstore_5fcritical_5fdata_5frelease_5fand_5funlock_99',['rtc_store_critical_data_release_and_unlock',['../rtc__store_8h.html#ab15c6026d93176ec173a0611c7954d32',1,'rtc_store.h']]],
+  ['rtc_5fstore_5fcritical_5fdata_5fwrite_100',['rtc_store_critical_data_write',['../rtc__store_8h.html#aa5139fdc40a72e3e6bb59b1d608a8574',1,'rtc_store.h']]],
+  ['rtc_5fstore_5fdeinit_101',['rtc_store_deinit',['../rtc__store_8h.html#ad81cb79eb8c88caf044b37369d32de6d',1,'rtc_store.h']]],
+  ['rtc_5fstore_5fevent_5fcritical_5fdata_5flow_5fmem_102',['RTC_STORE_EVENT_CRITICAL_DATA_LOW_MEM',['../rtc__store_8h.html#adecfb7bc048ba466b2a4ee2c2b9bcaa3a76e4873a858d9f8dd35b1a4ce05280ea',1,'rtc_store.h']]],
+  ['rtc_5fstore_5fevent_5fcritical_5fdata_5fwrite_5ffail_103',['RTC_STORE_EVENT_CRITICAL_DATA_WRITE_FAIL',['../rtc__store_8h.html#adecfb7bc048ba466b2a4ee2c2b9bcaa3ade07a6119a8c190ddb9e260c3562c935',1,'rtc_store.h']]],
+  ['rtc_5fstore_5fevent_5fnon_5fcritical_5fdata_5flow_5fmem_104',['RTC_STORE_EVENT_NON_CRITICAL_DATA_LOW_MEM',['../rtc__store_8h.html#adecfb7bc048ba466b2a4ee2c2b9bcaa3ac0110798c2c1c975440b0c1c64e3546c',1,'rtc_store.h']]],
+  ['rtc_5fstore_5fevent_5fnon_5fcritical_5fdata_5fwrite_5ffail_105',['RTC_STORE_EVENT_NON_CRITICAL_DATA_WRITE_FAIL',['../rtc__store_8h.html#adecfb7bc048ba466b2a4ee2c2b9bcaa3a0f7212b157e80227eb24fa9b934eeb38',1,'rtc_store.h']]],
+  ['rtc_5fstore_5fevent_5ft_106',['rtc_store_event_t',['../rtc__store_8h.html#adecfb7bc048ba466b2a4ee2c2b9bcaa3',1,'rtc_store.h']]],
+  ['rtc_5fstore_5finit_107',['rtc_store_init',['../rtc__store_8h.html#a824f721d2875a13b696b12bd09e34f86',1,'rtc_store.h']]],
+  ['rtc_5fstore_5fnon_5fcritical_5fdata_5fhdr_5ft_108',['rtc_store_non_critical_data_hdr_t',['../structrtc__store__non__critical__data__hdr__t.html',1,'']]],
+  ['rtc_5fstore_5fnon_5fcritical_5fdata_5fread_5fand_5flock_109',['rtc_store_non_critical_data_read_and_lock',['../rtc__store_8h.html#a3af80a18b95d4e9dc9fc3198239ca2a6',1,'rtc_store.h']]],
+  ['rtc_5fstore_5fnon_5fcritical_5fdata_5frelease_110',['rtc_store_non_critical_data_release',['../rtc__store_8h.html#a4b9ae3d6aea37de0632b0e85612cbc8c',1,'rtc_store.h']]],
+  ['rtc_5fstore_5fnon_5fcritical_5fdata_5frelease_5fand_5funlock_111',['rtc_store_non_critical_data_release_and_unlock',['../rtc__store_8h.html#aa9688645e7bb76495b4c344f8b7c3148',1,'rtc_store.h']]],
+  ['rtc_5fstore_5fnon_5fcritical_5fdata_5fwrite_112',['rtc_store_non_critical_data_write',['../rtc__store_8h.html#a4c42be06e304da61ab663b2bbc9c5e8c',1,'rtc_store.h']]]
+];
