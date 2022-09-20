@@ -27,16 +27,28 @@ jobs:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
+    container:
+      image: espressif/idf:v4.4.2
     steps:
       - name: Checkout
         uses: actions/checkout@v3
+      - name: idf-stuff
+        run: |
+          export INSIGHTS_PATH=$PWD
+          mkdir images
+          cd $IDF_PATH
+          source export.sh
+          cd - && cd examples/minimal_diagnostics
+          idf.py build
+          cp build/minimal_diagnostics.bin $INSIGHTS_PATH/images
+          cd ../../
+
       - name: Setup Pages
         uses: actions/configure-pages@v2
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
         with:
-          # Upload entire repository
-          path: '.'
+          path: 'images/'
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v1
