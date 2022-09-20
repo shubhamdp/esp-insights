@@ -35,10 +35,12 @@ jobs:
       - name: idf-stuff
         run: |
           export INSIGHTS_PATH=$PWD
+          echo $INSIGHTS_PATH
           mkdir images
           cd $IDF_PATH
           source export.sh
           cd - && cd examples/minimal_diagnostics
+          $PWD
           idf.py build
           cp build/minimal_diagnostics.bin $INSIGHTS_PATH/images
           cd ../../
