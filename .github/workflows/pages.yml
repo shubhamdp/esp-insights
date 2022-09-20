@@ -36,6 +36,7 @@ jobs:
         run: |
           export INSIGHTS_PATH=$PWD
           echo $INSIGHTS_PATH
+          echo $IDF_PATH
           mkdir images
           cd $IDF_PATH
           source export.sh
